@@ -1,13 +1,13 @@
 {
   "name": "graphql",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository provides a type-safe framework for testing GraphQL APIs with Playwright Test",
   "main": "index.js",
   "scripts": {
     "test:prod": "cross-env test_env=prod npx playwright test --config=playwright.config.ts --project=graphql"
   },
   "keywords": [],
-  "author": "",
+  "author": "Muhammad Said",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.16.3",
